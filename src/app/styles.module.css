@@ -1,0 +1,67 @@
+@screen lg {
+  .main {
+    @apply flex min-h-screen flex-col items-center justify-between w-full gap-6;
+  }
+
+  .main__section1 {
+    background-image: url("../../images/fishes-river.jpg");
+    @apply !max-h-[664px] bg-red-200 p-4 w-full flex justify-center;
+  }
+
+  .main__section1__div {
+    @apply flex justify-start items-center !max-w-[1920px] p-8;
+  }
+
+  .main__section1__div__h1 {
+    @apply !text-7xl font-bold text-white !max-w-[50%];
+  }
+
+  .main__section2 {
+    @apply flex justify-evenly w-full max-w-[1280px] p-6;
+  }
+
+  .main__section3 {
+    @apply h-screen w-full bg-gradient-to-r from-[#2d4827] to-[#5c7735] flex items-center flex-col gap-8;
+  }
+
+  .main__section3__h2 {
+    @apply !text-7xl font-bold mt-6 text-white;
+  }
+
+  .main__section3__a {
+    @apply text-white !text-xl;
+  }
+}
+
+.main {
+  @apply flex min-h-screen flex-col items-center justify-between w-full gap-6;
+}
+
+.main__section1 {
+  background-image: url("../../images/fishes-river.jpg");
+  @apply max-h-[664px] bg-red-200 p-4 w-full flex justify-center;
+}
+
+.main__section1__div {
+  @apply flex justify-start items-center max-w-[1920px] p-8;
+}
+
+.main__section1__div__h1 {
+  @apply text-3xl font-bold text-white w-full;
+}
+
+.main__section2 {
+  @apply flex flex-wrap gap-4 items-center justify-center w-full p-6;
+}
+
+.main__section3 {
+  @apply h-screen w-full bg-gradient-to-r from-[#2d4827] to-[#5c7735] flex items-center flex-col gap-8;
+}
+
+.main__section3__h2 {
+  @apply text-3xl font-bold mt-6 text-white text-center;
+}
+
+.main__section3__a {
+  @apply text-white text-xl underline;
+}
