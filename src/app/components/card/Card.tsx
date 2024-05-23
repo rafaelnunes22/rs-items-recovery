@@ -19,7 +19,7 @@ export function Card({
 }: Props) {
   return (
     <div className="flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70 w-[200px]">
-      <div className="h-32">
+      <div className="h-32 pt-4">
         <Image src={imageSrc} alt={imageAlt} width={400} height={200} />
       </div>
       <div className="p-4 md:p-5 flex flex-col items-start">

@@ -29,14 +29,13 @@ export default function HomeAppliances() {
           <li>
             <a href="#maquina-de-lavar">3. Máquina de Lavar</a>
           </li>
+          <li>
+            <a href="#tomada">4. Tomada</a>
+          </li>
         </ul>
       </section>
       <section className="h-fit flex flex-col gap-4 mt-4" id="geladeira">
         <h2 className="text-2xl font-bold ">Geladeira</h2>
-        <p className="text-lg">
-          O primeiro ponto de atenção, como de todos os outros é não ligar a
-          geladeira na tomada.
-        </p>
         <iframe
           width="100%"
           height="500"
@@ -98,6 +97,19 @@ export default function HomeAppliances() {
           src="https://www.youtube.com/embed/xmygfvo3nwQ"
           title="Saiba como salvar sua Máquina de Lavar após enchentes 🧦 #chuva #shorts #lavadora"
           frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+        ></iframe>
+      </section>
+
+      <section className="h-fit flex flex-col gap-4 mt-4" id="tomada">
+        <h2 className="text-2xl font-bold ">Tomada</h2>
+        <iframe
+          width="100%"
+          height="500"
+          src="https://www.youtube.com/embed/Zr_lD5BuQGo"
+          title="COMO LIMPAR TOMADAS ATINGIDAS PELA ENCHENTE! #enchenters"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerPolicy="strict-origin-when-cross-origin"
           allowFullScreen

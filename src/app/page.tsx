@@ -3,6 +3,7 @@ import { Card } from "./components/card/Card";
 import clothes from "../../images/clothes.png";
 import eletronics from "../../images/eletronics.png";
 import homeAppliances from "../../images/homeAppliances.png";
+import veicles from "../../images/veicles.png";
 import vakinhaQRCode from "../../images/vakinha-da-mari.svg";
 import styles from "./styles.module.css";
 
@@ -39,13 +40,13 @@ export default function Home() {
           content="Dicas para lavar e desinfetar suas roupas contaminadas"
           button="Ir para página"
           imageSrc={clothes}
-          imageAlt="Imagem de fundo branco com diversos eletrodomésticos (geladeira, fogão, microondas e outros)"
+          imageAlt="Imagem de fundo branco com roupas dobradas"
         />
         <Card
-          title="Roupas"
-          content="Dicas para lavar e desinfetar suas roupas contaminadas"
+          title="Veículos"
+          content="Dicas para recuperação de seu veículo atingido pela água"
           button="Ir para página"
-          imageSrc={homeAppliances}
+          imageSrc={veicles}
           imageAlt="Imagem de fundo branco com diversos eletrodomésticos (geladeira, fogão, microondas e outros)"
         />
       </section>
