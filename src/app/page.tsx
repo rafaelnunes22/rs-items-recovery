@@ -48,7 +48,8 @@ export default function Home() {
           content="Dicas para recuperação de seu veículo atingido pela água"
           button="Ir para página"
           imageSrc={veicles}
-          imageAlt="Imagem de fundo branco com diversos eletrodomésticos (geladeira, fogão, microondas e outros)"
+          imageAlt="Imagem de fundo branco com veículos em sobreposição (moto, carro, van e caminhão)"
+          href="/pages/veiculos"
         />
       </section>
       <section className={styles.main__section3}>

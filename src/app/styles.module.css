@@ -39,6 +39,7 @@
 
 .main__section1 {
   background-image: url("../../images/fishes-river.jpg");
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.3);
   @apply max-h-[664px] bg-red-200 p-4 w-full flex justify-center;
 }
 

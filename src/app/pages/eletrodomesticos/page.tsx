@@ -102,7 +102,6 @@ export default function HomeAppliances() {
           allowFullScreen
         ></iframe>
       </section>
-
       <section className="h-fit flex flex-col gap-4 mt-4" id="tomada">
         <h2 className="text-2xl font-bold ">Tomada</h2>
         <iframe
