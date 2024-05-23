@@ -31,7 +31,8 @@ export default function Home() {
           content="Dicas para recuperação de seus aparelhos eletrônicos"
           button="Ir para página"
           imageSrc={eletronics}
-          imageAlt="Imagem de fundo branco com diversos eletrodomésticos (geladeira, fogão, microondas e outros)"
+          imageAlt="Imagem de fundo branco com diversos aparelhos eletrônicos (computador, celular, notebnook e outros)"
+          href="/pages/eletronicos"
         />
         <Card
           title="Roupas"
