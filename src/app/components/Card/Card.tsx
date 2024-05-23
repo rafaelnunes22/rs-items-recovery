@@ -6,9 +6,17 @@ type Props = {
   button: string;
   imageSrc: StaticImageData;
   imageAlt: string;
+  href?: string;
 };
 
-export function Card({ title, content, button, imageSrc, imageAlt }: Props) {
+export function Card({
+  title,
+  content,
+  button,
+  imageSrc,
+  imageAlt,
+  href = "#",
+}: Props) {
   return (
     <div className="flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70 w-[200px]">
       <div className="h-32">
@@ -23,7 +31,7 @@ export function Card({ title, content, button, imageSrc, imageAlt }: Props) {
         </p>
         <a
           className="mt-2 py-2 px-3 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-[#156418] text-white hover:bg-[#2f7732] disabled:opacity-50 disabled:pointer-events-none"
-          href="#"
+          href={href}
         >
           {button}
         </a>

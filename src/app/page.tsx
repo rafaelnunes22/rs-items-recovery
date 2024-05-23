@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Card } from "./components/Card/Card";
+import { Card } from "./components/card/Card";
 import clothes from "../../images/clothes.png";
 import eletronics from "../../images/eletronics.png";
 import homeAppliances from "../../images/homeAppliances.png";
@@ -24,6 +24,7 @@ export default function Home() {
           button="Ir para página"
           imageSrc={homeAppliances}
           imageAlt="Imagem de fundo branco com diversos eletrodomésticos (geladeira, fogão, microondas e outros)"
+          href="/pages/eletrodomesticos"
         />
         <Card
           title="Eletrônicos"
