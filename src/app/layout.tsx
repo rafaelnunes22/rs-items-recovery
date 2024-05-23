@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Inter } from "next/font/google";
 import cn from "clsx";
 import "./globals.css";
@@ -22,6 +23,7 @@ export default function RootLayout({
       <body className={cn(inter.className, "flex flex-row justify-center")}>
         {children}
         <PrelineScript />
+        <SpeedInsights />
       </body>
     </html>
   );
