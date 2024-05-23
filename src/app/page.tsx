@@ -41,6 +41,7 @@ export default function Home() {
           button="Ir para página"
           imageSrc={clothes}
           imageAlt="Imagem de fundo branco com roupas dobradas"
+          href="/pages/roupas"
         />
         <Card
           title="Veículos"

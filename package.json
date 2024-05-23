@@ -2,6 +2,11 @@
   "name": "rs-items-recovery",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "name": "Rafael Nunes",
+    "email": "rafaelsnunes.dev@gmail.com",
+    "url": "https://github.com/rafaelnunes22"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
